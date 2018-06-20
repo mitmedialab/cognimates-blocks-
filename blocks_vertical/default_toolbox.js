@@ -211,6 +211,18 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '<shadow type="sound_sounds_menu"></shadow>'+
       '</value>'+
     '</block>'+
+    '<block type="sound_setstyle" id="sound_setstyle">'+
+      '<value name="SOUND_MENU">'+
+        '<shadow type="sound_sounds_menu"></shadow>'+
+      '</value>'+
+    '</block>'+
+    '<block type="sound_setsong" id="sound_setsong">'+
+      '<value name="SOUND_MENU">'+
+        '<shadow type="sound_sounds_menu"></shadow>'+
+      '</value>'+
+    '</block>'+
+    '<block type="sound_mixsong" id="sound_mixsong"></block>'+
+    '<block type="sound_opensocket" id="sound_opensocket"></block>'+
     '<block type="sound_playuntildone" id="sound_playuntildone">'+
       '<value name="SOUND_MENU">'+
         '<shadow type="sound_sounds_menu"></shadow>'+

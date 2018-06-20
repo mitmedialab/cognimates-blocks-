@@ -232,3 +232,4 @@ Blockly.Blocks['extension_music_reporter'] = {
     });
   }
 };
+
