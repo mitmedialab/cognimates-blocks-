@@ -194,6 +194,17 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
       '</value>'+
     '</block>'+
     '<block type="looks_gotofrontback" id="looks_gotofrontback"></block>'+
+    '<block type="looks_set_image" id="looks_set_image">'+
+     '<value name="BACKDROP">'+
+       '<shadow type="looks_backdrops"></shadow>'+
+     '</value>'+
+   '</block>'+
+   '<block type="looks_set_style" id="looks_set_style"></block>'+
+   '<block type="looks_remix" id="looks_remix">'+
+     '<value name="BACKDROP">'+
+       '<shadow type="looks_backdrops"></shadow>'+
+     '</value>'+
+   '</block>'+
     '<block type="looks_goforwardbackwardlayers" id="looks_goforwardbackwardlayers">'+
       '<value name="NUM">'+
         '<shadow type="math_integer">'+

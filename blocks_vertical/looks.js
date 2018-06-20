@@ -116,6 +116,79 @@ Blockly.Blocks['looks_think'] = {
   }
 };
 
+Blockly.Blocks['looks_set_style'] = {
+  /**
+   * Block to switch the backdrop to the selected one.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.LOOKS_SET_STYLE,
+      "args0": [
+        {
+          "type": "field_dropdown",
+          "name": "PRESETS",
+          "options": [
+            [Blockly.Msg.LOOKS_REMIX_WAVES, 'WAVES'],
+            [Blockly.Msg.LOOKS_REMIX_SQUARES, 'SQUARES'],
+          ]
+        }
+      ],
+      "category": Blockly.Categories.looks,
+      "extensions": ["colours_looks", "shape_statement"]
+    });
+  }
+ };
+ 
+ Blockly.Blocks['looks_set_image'] = {
+  /**
+   * Block to switch the backdrop to the selected one.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.LOOKS_SET_IMAGE,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "BACKDROP"
+        }
+      ],
+      "category": Blockly.Categories.looks,
+      "extensions": ["colours_looks", "shape_statement"]
+    });
+  }
+ };
+ 
+ 
+ Blockly.Blocks['looks_remix'] = {
+  /**
+   * Remix.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.LOOKS_REMIX,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "BACKDROP"
+        },
+        {
+          "type": "field_dropdown",
+          "name": "PRESETS",
+          "options": [
+            [Blockly.Msg.LOOKS_REMIX_WAVES, 'WAVES'],
+            [Blockly.Msg.LOOKS_REMIX_SQUARES, 'SQUARES'],
+          ]
+        }
+      ],
+      "category": Blockly.Categories.looks,
+      "extensions": ["colours_looks", "shape_statement"]
+    });
+  }
+ };
+
 Blockly.Blocks['looks_show'] = {
   /**
    * Show block.
