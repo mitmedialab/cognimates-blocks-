@@ -259,6 +259,10 @@ Blockly.Msg.SOUND_EFFECTS_PAN = "pan left/right";
 Blockly.Msg.SOUND_CHANGEVOLUMEBY = "change volume by %1";
 Blockly.Msg.SOUND_SETVOLUMETO = "set volume to %1%";
 Blockly.Msg.SOUND_VOLUME = "volume";
+Blockly.Msg.SOUND_SETSTYLE = "set style to %1";
+Blockly.Msg.SOUND_SETSONG = "set content of song to %1";
+Blockly.Msg.SOUND_MIXSONG = "mix stlye and song";
+Blockly.Msg.SOUND_OPENSOCKET = "start connection";
 
 // Context menus
 Blockly.Msg.DUPLICATE = 'Duplicate';
@@ -316,3 +320,4 @@ Blockly.Msg.NEW_BROADCAST_MESSAGE = 'New message';
 Blockly.Msg.NEW_BROADCAST_MESSAGE_TITLE = 'New message name:';
 Blockly.Msg.BROADCAST_MODAL_TITLE = 'New Message';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
+
