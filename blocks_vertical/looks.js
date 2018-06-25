@@ -129,8 +129,12 @@ Blockly.Blocks['looks_set_style'] = {
           "type": "field_dropdown",
           "name": "PRESETS",
           "options": [
-            [Blockly.Msg.LOOKS_REMIX_WAVES, 'WAVES'],
+            [Blockly.Msg.LOOKS_REMIX_WAVES, 'WAVE'],
             [Blockly.Msg.LOOKS_REMIX_SQUARES, 'SQUARES'],
+            [Blockly.Msg.LOOKS_REMIX_OLD, 'OLD'],
+            [Blockly.Msg.LOOKS_REMIX_ABSTRACT, 'ABSTRACT'],
+            [Blockly.Msg.LOOKS_REMIX_LIGHT, 'LIGHT'],
+            [Blockly.Msg.LOOKS_REMIX_SCREAM, 'SCREAM']
           ]
         }
       ],
@@ -160,6 +164,15 @@ Blockly.Blocks['looks_set_style'] = {
   }
  };
  
+ Blockly.Blocks['looks_connect'] = {
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.LOOKS_CONNECT,
+      "category": Blockly.Categories.looks,
+      "extensions": ["colours_looks", "shape_statement"]
+    });
+  }
+};
  
  Blockly.Blocks['looks_remix'] = {
   /**
@@ -178,8 +191,12 @@ Blockly.Blocks['looks_set_style'] = {
           "type": "field_dropdown",
           "name": "PRESETS",
           "options": [
-            [Blockly.Msg.LOOKS_REMIX_WAVES, 'WAVES'],
+            [Blockly.Msg.LOOKS_REMIX_WAVES, 'WAVE'],
             [Blockly.Msg.LOOKS_REMIX_SQUARES, 'SQUARES'],
+            [Blockly.Msg.LOOKS_REMIX_OLD, 'OLD'],
+            [Blockly.Msg.LOOKS_REMIX_ABSTRACT, 'ABSTRACT'],
+            [Blockly.Msg.LOOKS_REMIX_LIGHT, 'LIGHT'],
+            [Blockly.Msg.LOOKS_REMIX_SCREAM, 'SCREAM']
           ]
         }
       ],
