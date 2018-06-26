@@ -39,10 +39,9 @@ def process_data(rawData):
     inputData = rawData.split(",")
     image = inputData[0]
     style = inputData[1]
-    in_path = "input/" + image
-    out_path = "output/out.jpg"
+    in_path = "~/desktop" + image
+    out_path = "~/desktop" + image
     checkpoint_dir = style
-    print(in_path + " " + out_path + " " + checkpoint_dir)
     main(in_path, out_path, checkpoint_dir)
 
 def startServer():
