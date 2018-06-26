@@ -39,8 +39,8 @@ def process_data(rawData):
     inputData = rawData.split(",")
     image = inputData[0]
     style = inputData[1]
-    in_path = "~/desktop" + image
-    out_path = "~/desktop" + image
+    in_path = "/Users/clementeocejo/Downloads/" + image
+    out_path = "/Users/clementeocejo/Downloads/" + image
     checkpoint_dir = style
     main(in_path, out_path, checkpoint_dir)
 

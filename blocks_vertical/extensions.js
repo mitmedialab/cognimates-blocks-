@@ -232,19 +232,3 @@ Blockly.Blocks['extension_music_reporter'] = {
     });
   }
 };
-
-Blockly.Blocks['extension_styletransfer_setstyle'] = {
-  init: function() {
-    this.jsonInit({
-      "msesage0": Blockly.Msg.SOUND_SETSTYLE,
-      "args0": [
-        {
-          "type": "input_value",
-          "name": "SOUND_MENU"
-        }
-      ],
-      "category": Blockly.Categories.more,
-      "extensions": ["colours_sounds", "output_string", "scratch_extension"]
-    })
-  }
-}
