@@ -69,7 +69,7 @@
     "LOOKS_SET_IMAGE":"set image %1",
     "LOOKS_SET_STYLE": "set style %1",
     "LOOKS_CONNECT": "connect",
-    "LOOKS_REMIX": "remix %1 with %2",
+    "LOOKS_REMIX": "Set effect of %1 to %2",
     "LOOKS_REMIX_WAVES": "wave",
     "LOOKS_REMIX_SQUARES": "squares",
     "LOOKS_REMIX_OLD": "old",
