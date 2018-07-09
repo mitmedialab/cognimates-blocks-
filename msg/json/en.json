@@ -223,6 +223,6 @@
     "SOUND_VOLUME": "volume",
     "SOUND_SETSTYLE": "set style to %1",
     "SOUND_SETSONG": "set content of song to %1",
-    "SOUND_MIXSONG": "mix style and song",
+    "SOUND_MIXSONG": "mix %1 and %2",
     "SOUND_OPENSOCKET": "start connection"
 }

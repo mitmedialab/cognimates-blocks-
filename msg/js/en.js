@@ -229,5 +229,5 @@ Blockly.Msg["SOUND_SETVOLUMETO"] = "set volume to %1%";
 Blockly.Msg["SOUND_VOLUME"] = "volume";
 Blockly.Msg["SOUND_SETSTYLE"] = "set style to %1";
 Blockly.Msg["SOUND_SETSONG"] = "set content of song to %1";
-Blockly.Msg["SOUND_MIXSONG"] = "mix style and song";
+Blockly.Msg["SOUND_MIXSONG"] = "mix %1 and %2";
 Blockly.Msg["SOUND_OPENSOCKET"] = "start connection";
